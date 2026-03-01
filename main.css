@@ -35,14 +35,6 @@ h2 {
   padding-bottom: 5px;
   margin-top: 30px;
 }
-
-/* Table Styling */
-table {
-  width: 100%;
-  border-collapse: collapse;
-  margin-top: 15px;
-}
-
 td {
   padding: 10px;
   border-bottom: 1px solid #ddd;
