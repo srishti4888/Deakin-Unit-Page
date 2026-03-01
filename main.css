@@ -1,22 +1,52 @@
-
-
-h1 {
-  font-size: 40px;
-  font-family: Arial
-}
-h2 {
-  font-size: 25px;
-  font-family: Arial
-}
-h3 {
-  font-family: Arial
-}
-p {
-  font-size: 14px;
-  font-family: Arial
+/* Body Styling */
+body {
+  font-family: Arial, sans-serif;
+  margin: 40px;
+  background-color: #f4f6f8;
 }
 
+/* Logo Alignment */
 div {
-  background-color: darkcyan;
   text-align: right;
+}
+
+/* Main Heading */
+h1 {
+  color: darkcyan;
+  text-align: center;
+}
+
+/* Section Headings */
+h2 {
+  color: #333;
+  margin-top: 30px;
+}
+
+/* Table Styling */
+table {
+  border-collapse: collapse;
+  margin-top: 10px;
+}
+
+/* Table Cells */
+th, td {
+  padding: 10px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+/* Alternate Row Color */
+tr:nth-child(odd) {
+  background-color: #e9f5f5;
+}
+
+/* Link Styling */
+a {
+  color: darkblue;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+a:hover {
+  text-decoration: underline;
 }
